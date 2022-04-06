@@ -12,16 +12,22 @@ public class MenuView {
 
     public void menu() {
      
-        System.out.println("***Menu***");
         System.out.println("");
-        System.out.println("1-Cadastrar Usu�rio");
-        System.out.println("2-Cadastrar Fornecedor");
-        System.out.println("3-Castrar Tipo Pessoa");
-        System.out.println("5-Cadastrar Cliente");
-        System.out.println("6-Cadastrar Produto");
-        System.out.println("7-Sair");
+	    System.out.println("____________________________");
+        System.out.println("        ***Menu***");
+        System.out.println("");
+        System.out.println("[1]-Cadastrar Usuario");
+        System.out.println("[2]-Cadastrar Fornecedor");
+        System.out.println("[3]-Castrar Tipo Pessoa");
+        System.out.println("[5]-Cadastrar Cliente");
+        System.out.println("[6]-Cadastrar Produto");
+        System.out.println("[7]-Sair");
+        System.out.println("");
+         int x=ler.nextInt();
+	    System.out.println("____________________________");
 
-        int x=ler.nextInt();
+        
+
         switch(x){
             case 1 : 
             UsuarioView usuario =new UsuarioView();
